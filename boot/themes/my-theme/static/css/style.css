@@ -1,9 +1,24 @@
 body {
-    padding-top: 56px;
-  }
-  
-  .jumbotron {
-    background-color: #f8f9fa;
-  }
-  
-  
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron {
+  background-color: #f8f9fa;
+}
+
+
+.container-fluid {
+  padding: 0;
+}
+
+.container {
+  max-width: 100%;
+  padding: 0;
+}
+
+.full-width {
+  width: 100vw; /* 100% of the viewport width */
+  margin-left: calc(-50vw + 50%); /* Negative half of the viewport width plus half of the content width */
+  padding: 0 15px; /* Optional padding for content */
+}
