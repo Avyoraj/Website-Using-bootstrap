@@ -1,0 +1,19 @@
+<!-- layouts/partials/footer.html -->
+<footer class="footer mt-auto py-3 bg-light">
+    <div class="container">
+      <p>&copy; {{ now.Year }}. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <!-- jQuery and Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <!-- Custom JS -->
+  <script src="{{ "js/scripts.js" | relURL }}">
+  
+  <!-- Optionally include other JS files here -->
+  {{ partialCached "head/js.html" . }}
+  </script>
+  
