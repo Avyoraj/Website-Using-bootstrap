@@ -1,5 +1,5 @@
 <!-- layouts/partials/footer.html -->
-<footer class="footer mt-auto py-3 bg-light">
+<footer class="footer mt-auto py-3 bg-customf">
     <div class="container">
       <p>&copy; {{ now.Year }}. All rights reserved.</p>
     </div>
@@ -17,3 +17,11 @@
   {{ partialCached "head/js.html" . }}
   </script>
   
+
+<style>
+.bg-customf {
+  background-color: #232425;
+  color: #fff ;
+}
+
+</style>
